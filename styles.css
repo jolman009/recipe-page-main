@@ -1,8 +1,19 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+html {
+    background-color: hsl(30, 54%, 90%)
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 table, tr, th, td {
     width: 500px;
+    line-height: 2.5;
 }
 
 body {
@@ -10,27 +21,69 @@ body {
     display:flex;
     flex-direction: column;
     background-color:  hsl(15, 17%, 95%);
-    width: 600px;
-    height:1250px;
+    width: 605px;
+    height:1325px;
     margin-left: 200px;
     margin-top: 75px;
     padding: 20px;
     border-radius: 15px;
+    margin-bottom: 0;
 }
 img {
     border-radius: 15px;
 }
 
+h1 {
+    font-family:"Young Serif", serif;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 h2, h3 {
     color: hsl(332, 51%, 32%);
+    font-family:  "Young Serif", serif;
 }
 
 h2 {
     margin:0;
+    color:hsl(32, 40%, 41%);
+    font-size: 22px;
+    font-weight: 300; 
 }
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    margin:0;
+}
+
+.line {
+    line-height: 1.8;
+}
+ul {
+    line-height: 2.0;
+}
+
+ol {
+    margin-top: -5px;
+}
+
+.name {
+    margin: 0, 10, 0. 0 ;
+}
+
+p, ol, ul, table {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    
+} 
 
 table {
     margin-left: 30px;
     margin-right: 25px;
     margin-bottom: 20px;
+}
+
+.attribution {
+    text-align: left;
 }
