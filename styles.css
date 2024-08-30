@@ -9,7 +9,7 @@ html {
     background-color: hsl(30, 54%, 90%);
 }
 body {
-   height: 50%;  
+   height: 60%;  
    margin-left: 40px;
    width: 650px;
    padding: 1.5%;
@@ -39,15 +39,13 @@ h1 {
     margin-bottom: 5px;
 }
 
-section {
-    background-color: hsla(0, 100%, 50%, 0.04);
+.indent {
+    font-family: "Outfit", sans-serif;
+    margin:20px;
+    text-indent: 20px;
 }
 
 
-h2, h3 {
-    color: hsl(332, 51%, 32%);
-    font-family:  "Young Serif", serif;
-}
 
 h2 {
     margin:0;
@@ -56,20 +54,18 @@ h2 {
     font-weight: 300; 
 }
 
-h3 {
-    font-family: "Outfit", sans-serif;
-    margin:0;
-}
+
 
 .line {
     line-height: 1.8;
 }
+
 ul {
     line-height: 2.0;
 }
 
 ol {
-    margin-top: -5px;
+    margin-top: 15px;
 }
 
 .name {
